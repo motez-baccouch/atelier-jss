@@ -1,5 +1,6 @@
 var diff=parseInt(prompt("donner le niveau de difficulté 1:facile 2:moyenne 3:difficile"));
 if(diff>3)diff=3;
+if(diff<1)diff=1;
 var nbr=Math.floor(Math.random()*10);
 var count=Math.abs(diff-4);
 console.log(nbr);
