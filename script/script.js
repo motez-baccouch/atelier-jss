@@ -17,7 +17,7 @@ while(count!=0){
 }
             count--;
     }
-    alert("sorry for you :'( maybe next time, the number was"+nbr);
-    again();
+   if(!count) {alert("sorry for you :'( maybe next time, the number was"+nbr);
+    again();}
 
 
