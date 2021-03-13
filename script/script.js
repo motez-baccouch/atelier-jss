@@ -11,7 +11,7 @@ function again(){
 
 while(count!=0){
         var a=parseInt(prompt("guess the number(between 0-10"));
-        if(a==nbr-2 || a==nbr+2){alert("tu es proche");}
+        if(a==nbr-1 || a==nbr+1){alert("tu es proche");}
         if(a==nbr){alert("great work you guessed it right:"+nbr);
         again();
 }
